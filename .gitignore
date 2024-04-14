@@ -1,0 +1,42 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Binary executables
+*.exe
+*.out
+*.test
+
+# Log files and Crashlytics directories
+*.log
+crashlytics/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Ignore any .env files which contain sensitive information such as passwords or API keys
+.env
+
+# IDE-specific files (add more if your project uses a different IDE)
+.vscode/
+.idea/
+
+# Dependency directories (assumes you're using Go Modules)
+/vendor/
+/go.sum
+/go.mod
+
+# Ignore binary files
+*.pb
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.ico
+
+# Ignore backup files
+*~
